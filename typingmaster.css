@@ -11,6 +11,19 @@ text-align: center;
 width: 100%;
 height: 100vh;
 }
+.centerBody{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    width: 1100px;
+    padding: 40px;
+}
 @media(max-width:360px){
-    
+    .centerBody{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid red;
+        width: 300px;
+        padding: 10px;
+    }
 }
