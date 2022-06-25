@@ -72,7 +72,7 @@ button:hover {
 
 @media(max-width:600px) {
     .centerBody {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         width: 580px;
         padding: 10px;
     }
