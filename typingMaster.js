@@ -16,11 +16,13 @@ let startTime, endTime;
 //On click of button the function will happend;
 btn.addEventListener("click", function () {
     if (this.innerText == "Start") {
+       
         typeWords.disabled = false;
         playgame();
 
     } else if (this.innerText == "Done") {
         typeWords.disabled = true;
+        typeWords.innerText = " "
         btn.innerText = "Start";
         endGame();
     }
@@ -51,6 +53,7 @@ const endGame = () => {
     //call function "compareWords" and add into final text.
     finalMSg += compareWords(msg.innerText, totalStr);
     msgs.innerText = finalMSg;
+    typeWords.textContent =" ";
 }
 //call function for word count.
 const wordCounter = (str) => {

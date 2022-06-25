@@ -72,7 +72,7 @@ button:hover {
 
 @media(max-width:600px) {
     .centerBody {
-        /* border: 1px solid red; */
+        border: 1px solid red;
         width: 580px;
         padding: 10px;
     }
@@ -80,7 +80,10 @@ button:hover {
     button {
         margin-left: 37%;
     }
-  
+    #myWords{
+        width: 560px;
+        height: 300px;
+    }
 }
 
 @media(max-width:440px) {
@@ -88,6 +91,10 @@ button:hover {
         /* border: 1px solid red; */
         width: 380px;
         padding: 10px;
+    }
+    #myWords{
+        width: 360px;
+        height: 300px;
     }
 
     button {
