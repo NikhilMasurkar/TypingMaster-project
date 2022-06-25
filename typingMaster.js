@@ -23,7 +23,6 @@ btn.addEventListener("click", function () {
         typeWords.disabled = true;
         btn.innerText = "Start";
         endGame();
-
     }
 })
 //if button shows"Start" then playgame function work;
@@ -72,6 +71,7 @@ const compareWords = (str1, str2) => {
     let errorWords = (words1.length - cnt);
     return (". " + cnt + " Words correct out of " + words1.length + " words and the total number of the error are " + errorWords + ".")
 }
+
 
 
 
