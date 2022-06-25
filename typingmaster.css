@@ -1,53 +1,16 @@
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Josefin Sans', sans-serif;
+   padding: 0;
+   margin: 0%;
+   box-sizing: border-box;
+
 }
 .main{
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background: #3498db;
- 
+display: flex;
+justify-content: center;
+text-align: center;
+width: 100%;
+height: 100vh;
 }
-.centerBody{
-    position: absolute;
-    top: 50%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    text-align:center;
-}
-#heading{
-    padding: 20px;
-    text-transform: capitalize;
-    margin-bottom: 30px;
-    color: #ecf0f1;
-    text-shadow: 1px 2px 3px #2980b9;
-    font-size: 2.1rem;
-}#msg{
-    color: crimson;
-    text-transform: capitalize;
-}
-#myWords{
-    background: #444;
-    padding: 20px 20px;
-    font-size: 1.2rem;
-    border: 15px solid #34495e; 
-    box-sizing: 0 0 1px rgba(0,0,0,0.2);
-    color: white;
-}
-button{
-    border: none;
-    background-color:#34495e; 
-    color: white;
-    font-size: 1.2rem;
-    width: 150px;
-    height: 50px;
-    border-radius:10px;
-    margin-top: 20px;
-    cursor: pointer;
-}
-button:hover{
-    background-color:#213c4e; 
+@media(max-width:360px){
+    
 }

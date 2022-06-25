@@ -56,7 +56,7 @@ const endGame = () => {
 //call function for word count.
 const wordCounter = (str) => {
     let responce = str.split(" ").length;
-    console.log(responce);
+    // console.log(responce);
     return responce;
 }
 const compareWords = (str1, str2) => {
