@@ -22,7 +22,6 @@ btn.addEventListener("click", function () {
 
     } else if (this.innerText == "Done") {
         typeWords.disabled = true;
-        typeWords.innerText = " "
         btn.innerText = "Start";
         endGame();
     }
