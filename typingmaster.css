@@ -2,17 +2,16 @@
     padding: 0;
     margin: 0%;
     box-sizing: border-box;
-     background:rgb(235 225 225);
+    background: rgb(235 225 225);
 
 }
 
 .main {
     display: flex;
+    align-content: center;
     justify-content: center;
-    text-align: center;
-    width: 100%;
-    /* height: 100vh; */
-    background:rgb(235 225 225);
+    align-items: center;
+    background: rgb(235 225 225);
 }
 
 .centerBody {
@@ -20,7 +19,10 @@
     flex-direction: column;
     /* border: 1px solid red; */
     width: 1100px;
+    height: 100vh;
+    align-items: center;
     padding: 40px;
+    box-shadow: 1px 1px 5px 10px rgb(209 201 201);
 }
 
 #heading {
@@ -40,7 +42,6 @@
 
 #msgs {
     color: crimson;
-    text-transform: capitalize;
 }
 
 #myWords {
@@ -51,54 +52,22 @@
     box-sizing: 0 0 1px rgba(0, 0, 0, 0.2);
     color: white;
     outline: none;
-    border-radius:20px ;
+    border-radius: 20px;
+    width: 100%;
 }
 
 button {
     border: none;
-    background-color: #34495e;
-    color: white;
+    background-color: #2f3336;
+    color: rgb(221, 132, 150);
     font-size: 1.2rem;
     width: 150px;
-    height: 70px;
-    border-radius: 50px;
+    height: 55px;
+    border-radius: 10px;
     margin-top: 20px;
     cursor: pointer;
-    margin-left: 43%;
 }
 
 button:hover {
     background-color: #213c4e;
-}
-
-@media(max-width:600px) {
-    .centerBody {
-        /* border: 1px solid red; */
-        width: 580px;
-        padding: 10px;
-    }
-
-    button {
-        margin-left: 37%;
-    }
-    #myWords{
-        width: 560px;
-        height: 300px;
-    }
-}
-
-@media(max-width:440px) {
-    .centerBody {
-        /* border: 1px solid red; */
-        width: 380px;
-        padding: 10px;
-    }
-    #myWords{
-        width: 360px;
-        height: 300px;
-    }
-
-    button {
-        margin-left: 28%;
-    }
 }
